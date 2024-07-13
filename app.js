@@ -3,7 +3,7 @@ const http = require('http');
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
-  res.end('sq 2 on hans branch');
+  res.end('ålreit, nå blir det nye deploys on main fra hans branch');
 });
 
 const port = process.env.PORT || 3000;
