@@ -1,0 +1,45 @@
+altgraph @ file:///AppleInternal/Library/BuildRoots/860631e9-c1c5-11ee-98ee-b6ef2fd8d87b/Library/Caches/com.apple.xbs/Sources/python3/altgraph-0.17.2-py2.py3-none-any.whl
+azure-core==1.29.5
+azure-cosmos==4.3.1
+azure-data-tables==12.4.4
+azure-storage-blob==12.19.0
+azure-storage-queue==12.8.0
+certifi==2022.12.7
+cffi==1.16.0
+chardet==5.1.0
+charset-normalizer==3.1.0
+click==8.1.3
+colorama==0.4.6
+contourpy==1.2.0
+cryptography==41.0.7
+cycler==0.12.1
+distlib==0.3.6
+elastic-transport==8.11.0
+elasticsearch==8.11.1
+filelock==3.12.0
+fonttools==4.47.0
+future @ file:///AppleInternal/Library/BuildRoots/860631e9-c1c5-11ee-98ee-b6ef2fd8d87b/Library/Caches/com.apple.xbs/Sources/python3/future-0.18.2-py3-none-any.whl
+idna==3.4
+importlib-resources==6.1.1
+isodate==0.6.1
+kiwisolver==1.4.5
+macholib @ file:///AppleInternal/Library/BuildRoots/860631e9-c1c5-11ee-98ee-b6ef2fd8d87b/Library/Caches/com.apple.xbs/Sources/python3/macholib-1.15.2-py2.py3-none-any.whl
+matplotlib==3.8.2
+multidict==6.0.4
+numpy==1.26.2
+packaging==23.2
+Pillow==10.1.0
+pip-upgrade==0.0.6
+platformdirs==3.2.0
+pur==7.1.0
+pycparser==2.21
+pyparsing==3.1.1
+python-dateutil==2.8.2
+requests==2.28.2
+six==1.16.0
+typing_extensions==4.8.0
+urllib3==1.26.15
+virtualenv==20.22.0
+virtualenv-clone==0.5.7
+yarl==1.9.3
+zipp==3.17.0
