@@ -3,7 +3,7 @@ const http = require('http');
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
-  res.end('lokal commits på hans branch');
+  res.end('lokal senere commit på hans branch');
 });
 
 const port = process.env.PORT || 3000;
