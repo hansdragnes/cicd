@@ -6,7 +6,7 @@ class SimpleHTTPRequestHandler(BaseHTTPRequestHandler):
         self.send_response(200)
         self.send_header('Content-Type', 'text/plain')
         self.end_headers()
-        self.wfile.write(b'lokal senere commit paa hans branch')
+        self.wfile.write(b'pythonserver')
 
 port = int(os.environ.get('PORT', 3000))
 
