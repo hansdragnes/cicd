@@ -1,5 +1,6 @@
 from flask import Flask, render_template
 import os
+import calc as c
 
 app = Flask(__name__)
 
@@ -11,9 +12,10 @@ def hello():
 def health():
     return 'OK', 200, {'Content-Type': 'text/plain'}
 
-@app.route('/version')
-def version():
-    return '1.0', 200, {'Content-Type': 'text/plain'}
+@app.route('/calc/<int:number>')
+def calc(number):
+    result = c.square(number)
+    return str(result), 200, {'Content-Type': 'text/plain'}
 
 @app.route('/links')
 def links():
