@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, render_template
 import os
 
 app = Flask(__name__)
@@ -15,9 +15,9 @@ def health():
 def version():
     return '1.0', 200, {'Content-Type': 'text/plain'}
 
-@app.route('/hello/<name>')
-def hello_name(name):
-    return f'Hello, {name}!', 200, {'Content-Type': 'text/plain'}
+@app.route('/links')
+def links():
+    return render_template('index.html')
 
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 3000))
