@@ -38,7 +38,13 @@ def links():
 
 @app.route('/calculator')
 def calculator():
-    return render_template('calc.html')
+    app.logger.info('Accessed /calculator route')
+    try:
+        return render_template('calc.html')
+    except Exception as e:
+        app.logger.error(f'Error rendering template: {e}')
+        return 'Error rendering template', 500, {'Content-Type': 'text/plain'}
+    
 
 @app.route('/calculate', methods=['POST'])
 def calculate():
